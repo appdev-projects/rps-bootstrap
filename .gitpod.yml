@@ -1,4 +1,4 @@
-image: jelaniwoods/appdev2021-foodhub-hotfix
+image:  patrickmckernin/rpsbootstrap2022winter
 
 tasks:
   - init: bin/setup
@@ -8,9 +8,9 @@ ports:
   - port: 9515
     onOpen: ignore
 
+
 vscode:
   extensions:
-    - shd101wyy.markdown-preview-enhanced
     - vortizhe.simple-ruby-erb
-    - CraigMaslowski.erb
-    - wingrunr21.vscode-ruby
+    - mbessey.vscode-rufo
+    - aliariff.vscode-erb-beautify
